@@ -22,6 +22,15 @@ You will notice that it will use the implementation you set for "healthcheck" in
 ## Gradle
 
 Add dependency as follows:
+
 ```
     compile 'com.scmspain:karyon-health-check-endpoint-module:0.1.0-SNAPSHOT'
+```
+
+## AppServer.properties
+
+Make sure you do not set a too restrictive base package in order to get HealthCheckController also included and enabled.
+
+```
+com.scmspain.karyon.rest.property.packages=com.scmspain
 ```

@@ -3,7 +3,6 @@ package com.scmspain.karyon.healthcheckendpoint.common;
 import com.google.inject.Singleton;
 import com.netflix.config.DynamicPropertyFactory;
 import com.netflix.governator.annotations.Modules;
-import com.scmspain.karyon.healthcheckendpoint.HealthCheckController;
 import com.scmspain.karyon.healthcheckendpoint.module.HealthCheckEndPointModule;
 import netflix.karyon.KaryonBootstrap;
 import netflix.karyon.archaius.ArchaiusBootstrap;
@@ -35,8 +34,6 @@ public interface AppServerForTesting {
         @Override
         public void configure()
         {
-            bind(HealthCheckController.class).asEagerSingleton();
-
             super.configure();
         }
     }
