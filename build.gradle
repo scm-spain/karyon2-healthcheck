@@ -29,7 +29,7 @@ repositories {
 
 
 dependencies {
-    compile 'com.scmspain.karyon:karyon-rest-router:1.2.+'
+    compile 'com.scmspain.karyon:karyon-rest-router:1.2.2'
 
     testCompile 'junit:junit:4.11'
 }
