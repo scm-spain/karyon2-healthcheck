@@ -1,5 +1,7 @@
 # karyon2-healthcheck
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.scmspain.karyon/karyon2-healthcheck/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.scmspain.karyon/karyon2-healthcheck)
+
 This a module for the Netflix framework [Karyon](https://github.com/Netflix/karyon) which adds an endpoint /healthcheck [GET] that uses HealthCheckHandler service.
 It works close to karyon-rest-router
 
@@ -28,6 +30,8 @@ Add dependency as follows:
 ```
     compile 'com.scmspain.karyon:karyon-healthcheck:0.1.1'
 ```
+
+Please look at the badge from maven central to know which is the latest version for this module.
 
 ## AppServer.properties
 
