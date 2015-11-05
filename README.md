@@ -1,5 +1,7 @@
 # karyon2-healthcheck
 
+[![Build Status](https://travis-ci.org/scm-spain/karyon2-healthcheck.svg)](https://travis-ci.org/scm-spain/karyon2-healthcheck)
+
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.scmspain.karyon/karyon2-healthcheck/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.scmspain.karyon/karyon2-healthcheck)
 
 This a module for the Netflix framework [Karyon](https://github.com/Netflix/karyon) which adds an endpoint /healthcheck [GET] that uses HealthCheckHandler service.
