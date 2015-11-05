@@ -1,6 +1,11 @@
-# karyon-health-check-endpoint-module
+# karyon2-healthcheck
 
-Karyon-health-check-endpoint-module is a module for the Netflix framework [Karyon](https://github.com/Netflix/karyon) which adds an endpoint /healthcheck [GET] that uses HealthCheckHandler service.
+[![Build Status](https://travis-ci.org/scm-spain/karyon2-healthcheck.svg)](https://travis-ci.org/scm-spain/karyon2-healthcheck)
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.scmspain.karyon/karyon2-healthcheck/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.scmspain.karyon/karyon2-healthcheck)
+
+This a module for the Netflix framework [Karyon](https://github.com/Netflix/karyon) which adds an endpoint /healthcheck [GET] that uses HealthCheckHandler service.
+It works close to karyon-rest-router
 
 ## Documentation
 
@@ -17,15 +22,18 @@ public interface AppServerForTesting {
 }
 ```
 
-You will notice that it will use the implementation you set for "healthcheck" into KaryonBootstrap
+You will notice that it will use the implementation you set for "healthcheck" into KaryonBootstrap.
+See AppServerForTesting for further details and a functional implementation.
 
 ## Gradle
 
 Add dependency as follows:
 
 ```
-    compile 'com.scmspain:karyon-health-check-endpoint-module:0.1.0-SNAPSHOT'
+    compile 'com.scmspain.karyon:karyon-healthcheck:0.1.1'
 ```
+
+Please look at the badge from maven central to know which is the latest version for this module.
 
 ## AppServer.properties
 
