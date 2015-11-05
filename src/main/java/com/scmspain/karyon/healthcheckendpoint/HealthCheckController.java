@@ -9,8 +9,6 @@ import rx.Observable;
 import scmspain.karyon.restrouter.annotation.Endpoint;
 import scmspain.karyon.restrouter.annotation.Path;
 
-import javax.ws.rs.HttpMethod;
-
 @Endpoint
 public class HealthCheckController {
 
@@ -21,7 +19,7 @@ public class HealthCheckController {
         this.healthCheckHandler = healthCheckHandler;
     }
 
-    @Path(value = "/healthcheck", method = HttpMethod.GET)
+    @Path(value = "/healthcheck", method = "GET")
     public Observable<Void> healthcheck(HttpServerResponse<ByteBuf> response) {
         response.setStatus(HttpResponseStatus.valueOf(healthCheckHandler.getStatus()));
         return Observable.empty();

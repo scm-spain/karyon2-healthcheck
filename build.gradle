@@ -27,23 +27,12 @@ repositories {
     mavenCentral()
 }
 
+
 dependencies {
-    compile 'javax.ws.rs:jsr311-api:1.1.1'
-    compile 'com.netflix.karyon:karyon2-core:2.7.1'
-    compile 'com.netflix.karyon:karyon2-archaius:2.7.1'
-    compile 'com.netflix.karyon:karyon2-governator:2.7.1'
-    compile 'org.reflections:reflections:0.9.9'
     compile 'com.scmspain.karyon:karyon-rest-router:1.2.+'
 
     testCompile 'junit:junit:4.11'
-    testCompile 'org.mockito:mockito-all:1.9.5'
-    testCompile 'org.powermock:powermock-api-mockito:1.6.2'
-    testCompile 'org.powermock:powermock-module-junit4:1.6.2'
-    testCompile 'com.sun.jersey:jersey-core:1.19'
-    testCompile 'com.netflix.karyon:karyon2-archaius:2.7.1'
-    testCompile 'com.tngtech.java:junit-dataprovider:1.10.0'
 }
-
 test.doFirst {
     systemProperty 'archaius.deployment.environment', System.getProperty('archaius.deployment.environment', 'test')
 }
