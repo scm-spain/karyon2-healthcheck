@@ -1,5 +1,6 @@
-package com.scmspain.karyon.healthcheckendpoint;
+package com.scmspain.karyon.healthcheckendpoint.module;
 
+import com.scmspain.karyon.healthcheckendpoint.module.AbstractControllerTest;
 import io.netty.handler.codec.http.HttpResponseStatus;
 import io.reactivex.netty.protocol.http.client.HttpClientRequest;
 import org.junit.Assert;

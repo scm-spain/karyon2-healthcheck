@@ -1,4 +1,4 @@
-package com.scmspain.karyon.healthcheckendpoint.common;
+package com.scmspain.karyon.healthcheckendpoint.annotation.server;
 
 import com.google.inject.Singleton;
 import com.netflix.governator.annotations.Modules;
