@@ -1,7 +1,7 @@
-package com.scmspain.karyon.healthcheckendpoint;
+package com.scmspain.karyon.healthcheckendpoint.annotation;
 
 import com.netflix.governator.guice.BootstrapModule;
-import com.scmspain.karyon.healthcheckendpoint.common.AppServerForTesting;
+import com.scmspain.karyon.healthcheckendpoint.annotation.common.AppServerForTesting;
 import io.netty.buffer.ByteBuf;
 import io.reactivex.netty.RxNetty;
 import io.reactivex.netty.protocol.http.client.HttpClient;

@@ -20,5 +20,4 @@ public class HealthCheckEndPointModule extends AbstractModule {
     public static BootstrapModule asBootstrapModule() {
         return Karyon.toBootstrapModule(HealthCheckEndPointModule.class);
     }
-
 }

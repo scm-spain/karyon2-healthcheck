@@ -1,4 +1,4 @@
-package com.scmspain.karyon.healthcheckendpoint;
+package com.scmspain.karyon.healthcheckendpoint.annotation;
 
 import io.netty.handler.codec.http.HttpResponseStatus;
 import io.reactivex.netty.protocol.http.client.HttpClientRequest;
