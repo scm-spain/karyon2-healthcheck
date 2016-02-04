@@ -30,7 +30,7 @@ See AppServerForTesting for further details and a functional implementation.
 Add dependency as follows:
 
 ```
-    compile 'com.scmspain.karyon:karyon-healthcheck:0.1.1'
+    compile 'com.scmspain.karyon:karyon2-healthcheck:0.1.4'
 ```
 
 Please look at the badge from maven central to know which is the latest version for this module.
